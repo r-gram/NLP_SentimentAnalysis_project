@@ -1,18 +1,4 @@
 ############################################################
-# CMPSC 442: Homework 6
-############################################################
-
-student_name = "Robert Gramlich"
-
-############################################################
-# Imports
-############################################################
-
-# Include your imports here, if any are used.
-
-
-
-############################################################
 # Section 1: Hidden Markov Models
 ############################################################
 
@@ -186,18 +172,8 @@ class Tagger(object):
         optimal_path.reverse()
         return  optimal_path
 
-############################################################
-# Section 2: Feedback
-############################################################
-
-feedback_question_1 = """
-I spent about 10 hours on this homework.
 """
-
-feedback_question_2 = """
-I found get the initial values to be the most challenging. I got very confused about the last element in a token not getting counted but figure it out.
-"""
-
-feedback_question_3 = """
-I liked this assignment as a whole. I feel like I learned a lot and found it very interesting.
+Split the data by space and punct: 
+import re
+re.findall(r"[\w']+|[.,!?;]", "Hello, this is a test.")
 """
