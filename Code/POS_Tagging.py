@@ -1,3 +1,9 @@
+# Possible code to use for POS taggin if needed
+############################################################
+# Imports
+############################################################
+import pandas as pd
+
 ############################################################
 # Section 1: Hidden Markov Models
 ############################################################
@@ -14,6 +20,12 @@ def load_corpus(path):
                 new_line.append(word)
             lines.append(new_line)
     return lines
+
+def load_titles_women(path):
+
+
+def load_reviews_women(path):
+
 
 class Tagger(object):
     #Use the init function to get start tags, transition probabilites, and emmission probabilities
