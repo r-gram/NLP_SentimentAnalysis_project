@@ -1,6 +1,6 @@
-# DS340W
-Semester Project for DS340W  
-Nathan and Robert's semester project for DS340W.
+# Sentiment Analysis
+Testing the Importance of Domain-Specific Data for Sentiment Analysis  
+Robert Gramlich and Nathan Thomas
 
 INTRODUCTION
 Sentiment analysis has been used in the E-commerce space for many applications. It has been both a field of research with many methods being explored and an implemented system that businesses can use to make decisions about their products. This is especially important for businesses as public sentiment can influence how a product performs. If there is positive sentiment then the business may want to keep producing, or produce more of, said product. If there is negative sentiment then it may not be worth making as much of the product, or a different strategy to sell it might be needed.  Either way, identifying the sentiment of the public is key and looking at reviews is extremely useful in doing this.  
